@@ -7,19 +7,42 @@ INDIAN_KEYWORDS = [
     'Star Plus', 'Star Gold', 'Star Movies', 'Star Sports', 'Star Cricket', 'Star World',
     'Sony TV', 'Sony Max', 'Sony Max 2', 'Sony Ten', 'Sony Six', 'Sony Pal', 'Sony SAB',
     'Colors TV', 'Colors HD', 'Colors Bangla', 'Colors Marathi', 'Colors Tamil', 'Colors Kannada', 'Colors Infinity',
-    'Zee TV', 'Zee HD', 'Zee Cinema', 'Zee Action', 'Zee Anmol', 'Zee Bangla', 'Zee Tamil', 'Zee Yuva',
+    'Zee TV', 'Zee HD', 'Zee Cinema', 'Zee Action', 'Zee Anmol', 'Zee Bangla', 'Zee Tamil', 'Zee Yuva', 'Zee Punjabi',
     'DD National', 'DD News', 'DD India', 'DD Sports', 'Doordarshan',
     'NDTV', 'Aaj Tak', 'Republic', 'Times Now', 'India Today', 'ABP', 'News18', 'TV9',
-    'ETV', 'ETV HD', 'ETV Plus', 'ETV Cinema', 'ETV Life',
+    'ETV', 'ETV HD', 'ETV Plus', 'ETV Cinema', 'ETV Life', 'ETV Abhiruchi',
     '9XM', '9X', 'B4U', 'MTV', 'MTV India',
-    'Sun TV', 'Sun News', 'Jaya', 'Asianet', 'Asianet Plus', 'Surya', 'Mazhavil',
-    'Gemini TV', 'Polimer', 'Captain', 'Kumari',
-    'Goldmines', 'Manoranjan', 'Zee Classic', 'And Pictures',
+    'Sun TV', 'Sun News', 'Jaya', 'Asianet', 'Asianet Plus', 'Surya', 'Mazhavil', 'Sun NXT',
+    'Gemini TV', 'Polimer', 'Captain', 'Kumari', 'Vijay', 'Kalaignar',
+    'Goldmines', 'Manoranjan', 'Zee Classic', 'And Pictures', 'Andpictures',
     'Ten 1', 'Ten 2', 'Ten 3', 'Ten Sports',
     'Hotstar', 'Jio', 'Tata Play', 'Airtel',
-    'Sahara One', 'Maha',
-    'Star Pravah', 'Star Jalsha',
-    'DD Malayalam', 'DD Tamil', 'DD Telugu', 'DD Kannada', 'DD Marathi', 'DD Gujarati', 'DD Punjabi', 'DD Chandana'
+    'Sahara One', 'Maha TV', 'Maha',
+    'Star Pravah', 'Star Jalsha', 'Star Bharat',
+    'DD Malayalam', 'DD Tamil', 'DD Telugu', 'DD Kannada', 'DD Marathi', 'DD Gujarati', 'DD Punjabi', 'DD Chandana',
+    'KBS', 'Sahara', 'Shakti', 'Act',
+    'Aakaash', 'Aathavan', 'Adhyatm', 'AKD', 'Alankar', 'Amar', 'Amrita', 'Anand', 'Ananda', 'Angel',
+    'Bharat', 'Bhoomi', 'Bloomberg', 'Bollywood', 'Box', 'Britannia',
+    'Camera', 'Chardikla', 'Dabangg', 'Dahaad', 'Dhayi', 'Dilli', 'Divya',
+    'ETV Balaji', 'Fastway', 'Food', 'G',
+    'GNN', 'Gulistan', 'Gurukripa',
+    'HD', 'Himalaya',
+    ' IBC', 'Ichchapuran', 'Indl',
+    'Jan', 'Jhanjar', 'Jonack',
+    'Kall',
+    'Labistro', 'Lokmat',
+    'Madhav', 'Madhya', 'Magadan', 'Mahua', 'Malai', 'Manoranjan', 'Mathrubhumi', 'MBC',
+    'Mega', 'Mirror', 'MJ',
+    'Naada', 'Nadira', 'News', 'Nireeksha',
+    'Om', 'Orchid',
+    'Paras', 'Pehla', 'Platinum', 'Prakash', 'Prime', 'Punjab',
+    'Rangiya', 'Rising', 'RSTV',
+    'Sagarika', 'Sakshi', 'Samay', 'Sandesh', 'Sanskar', 'Shubhang', 'Sikkim', 'Sillunu', 'Sirippoli', 'Sonia', 'Sri',
+    'Tarang', 'Tazaa', 'Tehzeeb', 'Tippan', 'Travel', 'TV', 'TV5', 'TV9',
+    'Udaya', 'Ugc',
+    'V4', 'Vanity', 'Vasanth', 'Vijay', 'Vismay', 'Vividh',
+    'Wion',
+    'Zee', 'Zee24', 'ZeeMPC'
 ]
 
 EXCLUDED_GROUPS = [
@@ -40,14 +63,16 @@ ADDITIONAL_SOURCES = [
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_tango.m3u',
 ]
 
-def is_indian_channel(channel_name, group, url):
+def is_indian_channel(channel_name, group, url, tvg_id=''):
     channel_name = channel_name or ''
     group = group or ''
     url = url or ''
+    tvg_id = tvg_id or ''
     
     channel_lower = channel_name.lower()
     group_lower = group.lower()
     url_lower = url.lower()
+    tvg_id_lower = tvg_id.lower()
     
     for excluded in EXCLUDED_GROUPS:
         if excluded.lower() in group_lower:
@@ -56,13 +81,16 @@ def is_indian_channel(channel_name, group, url):
     if 'bangladesh' in group_lower or ' bd ' in channel_lower or '.bd' in channel_lower:
         return False
     
+    if '.in@' in tvg_id_lower:
+        return True
+    
     if any(kw.lower() in channel_lower for kw in INDIAN_KEYWORDS):
         return True
     
-    if any(kw.lower() in group_lower for kw in ['hindi', 'punjabi', 'tamil', 'telugu', 'malayalam', 'kannada', 'marathi', 'gujarati', 'bengali', 'indian']):
+    if any(kw.lower() in group_lower for kw in ['hindi', 'punjabi', 'tamil', 'telugu', 'malayalam', 'kannada', 'marathi', 'gujarati', 'bengali', 'indian', 'regional']):
         return True
     
-    if 'samsungin' in url_lower or 'amagi' in url_lower:
+    if 'samsungin' in url_lower or 'amagi' in url_lower or 'india' in url_lower:
         return True
     
     return False
@@ -93,6 +121,9 @@ def read_m3u_playlist(source):
             extinf = line
             url = lines[i+1].strip() if i+1 < len(lines) else ''
             
+            tvg_id_match = re.search(r'tvg-id="([^"]*)"', extinf)
+            tvg_id = tvg_id_match.group(1) if tvg_id_match else ''
+            
             group_match = re.search(r'group-title="([^"]*)"', extinf)
             group = group_match.group(1) if group_match else ''
             
@@ -102,9 +133,9 @@ def read_m3u_playlist(source):
             logo_match = re.search(r'tvg-logo="([^"]*)"', extinf)
             logo = logo_match.group(1) if logo_match else ''
             
-            if url and is_indian_channel(channel_name, group, url):
+            if url and is_indian_channel(channel_name, group, url, tvg_id):
                 if '.m3u8' in url or '.m3u' in url:
-                    playlist.append({'logo': logo, 'group': group, 'channel_name': channel_name, 'url': url})
+                    playlist.append({'logo': logo, 'group': group, 'channel_name': channel_name, 'url': url, 'tvg_id': tvg_id})
         i += 1
     
     print(f"Found {len(playlist)} Indian channels from {source[:40]}...")
