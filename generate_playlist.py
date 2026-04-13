@@ -178,9 +178,7 @@ def write_to_file(playlist, output_file, include_credits=False):
             f.write(f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{name}\n{url}\n")
 
 if __name__ == "__main__":
-    default_sources = [
-        'https://raw.githubusercontent.com/FunctionError/PiratesTv/main/combined_playlist.m3u',
-    ] + ADDITIONAL_SOURCES
+    default_sources = ADDITIONAL_SOURCES
     
     output_file = 'combined_playlist.m3u'
     include_credits = True  
