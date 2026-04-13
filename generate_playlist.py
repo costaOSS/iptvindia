@@ -35,7 +35,32 @@ EXCLUDED_GROUPS = ['Bangladeshi', 'Bangla', 'Bangladeshi 🇧🇩', 'Pakistan', 
                   'UK', 'USA', 'Arabic', 'Islamic', 'Cricket 🏏', 'Football',
                   'English Movies', 'English News', 'Documentary', 'KIDS', 'Kids',
                   'Promo', 'ISLAMIC CHANNELS', 'Bangla Movies', 'Bangla Music',
-                  'Relagion Channel']
+                  'Relagion Channel', 'Roku', 'XUMO', 'LG', 'Vizio', 'Fire TV',
+                  'Redbox', 'DistroTV', 'Local Now', 'Tablo', 'Samsung', 'Xiaomi']
+
+ADDITIONAL_SOURCES = [
+    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_distro.m3u',
+    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_doordarshan.m3u',
+    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_pishow.m3u',
+    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_tango.m3u',
+    'https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8',
+    'https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u',
+    'https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/roku_all.m3u',
+    'https://iptv-org.github.io/iptv/index.m3u',
+    'https://apsattv.com/ssungusa.m3u',
+    'https://www.apsattv.com/xumo.m3u',
+    'https://www.apsattv.com/lg.m3u',
+    'https://www.apsattv.com/localnow.m3u',
+    'https://www.apsattv.com/redbox.m3u',
+    'https://www.apsattv.com/distro.m3u',
+    'https://www.apsattv.com/xiaomi.m3u',
+    'https://www.apsattv.com/vizio.m3u',
+    'https://www.apsattv.com/firetv.m3u',
+    'https://www.apsattv.com/cineverse.m3u',
+    'https://www.apsattv.com/tablo.m3u',
+    'https://www.apsattv.com/klowd.tv',
+    'https://tvpass.org/playlist/m3u',
+]
 
 def is_indian_channel(channel_name, group):
     group = group or ''
@@ -103,20 +128,27 @@ def read_m3u_playlist(source):
     print(f"Found {len(playlist)} Indian channels from {source[:40]}...")
     return playlist
 
-def combine_playlists(playlist_sources, priority_order):
+def combine_playlists(all_sources):
     combined_playlist = []
     seen_channels = set()
-
-    all_sources = [s for s in priority_order if s and s != 'None'] + [s for s in playlist_sources if s and s != 'None']
+    seen_names = set()
     
     for source in all_sources:
         source_playlist = read_m3u_playlist(source)
         for channel in source_playlist:
-            channel_identity = (channel['channel_name'].strip().lower(), channel['url'].strip())
+            channel_name_clean = channel['channel_name'].strip().lower()
+            url_clean = channel['url'].strip()
+            
+            channel_identity = (channel_name_clean, url_clean)
+            
             if channel_identity not in seen_channels:
-                seen_channels.add(channel_identity)
-                combined_playlist.append(channel)
-
+                if channel_name_clean not in seen_names:
+                    seen_names.add(channel_name_clean)
+                    seen_channels.add(channel_identity)
+                    combined_playlist.append(channel)
+                else:
+                    seen_channels.add(channel_identity)
+    
     return combined_playlist
 
 def write_to_file(playlist, output_file, include_credits=False):
@@ -136,21 +168,12 @@ if __name__ == "__main__":
     default_sources = [
         'https://raw.githubusercontent.com/FunctionError/PiratesTv/main/combined_playlist.m3u',
         'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u'
-    ]
+    ] + ADDITIONAL_SOURCES
     
-    playlist_sources = [
-        os.getenv('PLAYLIST_SOURCE_URL_1') or default_sources[0],
-        os.getenv('PLAYLIST_SOURCE_URL_2') or default_sources[1]
-    ]
-    priority_order = [
-        os.getenv('PRIORITY_PLAYLIST_URL_1'),
-        os.getenv('PRIORITY_PLAYLIST_URL_2'),
-        os.getenv('PRIORITY_PLAYLIST_URL_3')
-    ]
     output_file = 'combined_playlist.m3u'
     include_credits = True  
 
-    combined_playlist = combine_playlists(playlist_sources, priority_order)
+    combined_playlist = combine_playlists(default_sources)
 
     write_to_file(combined_playlist, output_file, include_credits)
 
