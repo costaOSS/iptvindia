@@ -1,6 +1,7 @@
 import os
 import requests
 import re
+import concurrent.futures
 
 INDIAN_KEYWORDS = [
     'Hindi', 'Bollywood', 'India', 'Indian',
@@ -63,6 +64,11 @@ ADDITIONAL_SOURCES = [
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_tango.m3u',
 ]
 
+WORKING_DOMAINS = [
+    'amagi', 'samsungin', 'akamaized', 'cloudfront', 'cdn', 'wiseplayout',
+    'jsrdn', 'yuppcdn', 'yupp', 'intoday', 'akamaized.net', 'cloudfront.net'
+]
+
 def is_indian_channel(channel_name, group, url, tvg_id=''):
     channel_name = channel_name or ''
     group = group or ''
@@ -94,6 +100,23 @@ def is_indian_channel(channel_name, group, url, tvg_id=''):
         return True
     
     return False
+
+def is_likely_working(url):
+    url_lower = url.lower()
+    for domain in WORKING_DOMAINS:
+        if domain in url_lower:
+            return True
+    return False
+
+def check_stream(channel):
+    url = channel['url']
+    try:
+        response = requests.head(url, timeout=8, allow_redirects=True)
+        if response.status_code < 400:
+            return channel
+    except:
+        pass
+    return None
 
 def read_m3u_playlist(source):
     playlist = []
@@ -158,14 +181,30 @@ def combine_playlists(all_sources):
             if name_clean in seen_names_lower:
                 continue
             
+            if not is_likely_working(channel['url']):
+                continue
+            
             seen_urls.add(url_clean)
             seen_names_lower.add(name_clean)
             combined_playlist.append(channel)
     
     return combined_playlist
 
+def validate_streams(playlist, max_workers=30):
+    print(f"Validating {len(playlist)} streams...")
+    working_channels = []
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        results = list(executor.map(check_stream, playlist))
+        for channel in results:
+            if channel:
+                working_channels.append(channel)
+    
+    print(f"Working streams: {len(working_channels)}/{len(playlist)}")
+    return working_channels
+
 def write_to_file(playlist, output_file, include_credits=False):
-    credit_text = "# India-only IPTV - Filtered from PiratesTV\n"
+    credit_text = "# India-only IPTV - iptv-org\n"
     with open(output_file, 'w') as f:
         f.write("#EXTM3U\n")  
         if include_credits:
@@ -184,9 +223,11 @@ if __name__ == "__main__":
     include_credits = True  
 
     combined_playlist = combine_playlists(default_sources)
+    
+    working_playlist = validate_streams(combined_playlist)
 
-    write_to_file(combined_playlist, output_file, include_credits)
+    write_to_file(working_playlist, output_file, include_credits)
 
     print(f"\n=== Final Result ===")
-    print(f"Combined India-only playlist written to {output_file}")
-    print(f"Total Indian channels: {len(combined_playlist)}")
+    print(f"Working India-only playlist written to {output_file}")
+    print(f"Total working Indian channels: {len(working_playlist)}")
