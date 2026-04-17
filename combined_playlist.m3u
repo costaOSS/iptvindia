@@ -122,8 +122,6 @@ https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
 https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",B4U Movies India (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",B4U Music (1080p)
-https://cdn-2.pishow.tv/live/415/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Balle Balle (720p)
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bhojpuri Cinema (720p)
@@ -502,8 +500,6 @@ https://cdn-4.pishow.tv/live/987/master.m3u8
 https://cdn-2.pishow.tv/live/457/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",PTC Punjabi Gold
 https://cdn-7.pishow.tv/live/450/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",B4U Movies
-https://cdn-2.pishow.tv/live/419/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sakshi TV
 https://cdn-1.pishow.tv/live/409/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Mahaa News
@@ -554,6 +550,8 @@ https://cdn-6.pishow.tv/live/16/master.m3u8
 https://cdn-2.pishow.tv/live/12/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Safari TV
 https://cdn-6.pishow.tv/live/1513/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Samachar Plus
+https://cdn-2.pishow.tv/live/269/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Comercio TV (1080p)
 https://amg00082-amg00082c1-distrotv-us-7248.playouts.now.amagi.tv/playlist/amg00082-tarima-comercio-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Cowboy Channel (1080p)
@@ -684,6 +682,8 @@ https://cdn-6.pishow.tv/live/9/master.m3u8
 https://cdn-1.pishow.tv/live/31/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD National SD (576p)
 https://cdn-1.pishow.tv/live/11/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",DD Rajasthan (720p)
+https://cdn-1.pishow.tv/live/34/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Saptagiri
 https://cdn-1.pishow.tv/live/22/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Sports (720p)
@@ -696,8 +696,6 @@ https://cdn-1.pishow.tv/live/36/master.m3u8
 https://cdn-1.pishow.tv/live/17/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Yadagiri (576p)
 https://cdn-1.pishow.tv/live/21/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Dhamaka Movies B4U (576p)
-https://cdn-1.pishow.tv/live/235/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Fakt Marathi (720p) [Not 24/7]
 https://cdn-6.pishow.tv/live/10002/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Goldmines (576p)
