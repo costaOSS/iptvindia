@@ -156,8 +156,6 @@ https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8
 https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",ETV News (1080p)
 https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Filamchi Bhojpuri (1080p)
-https://epiconvh.akamaized.net/live/filamchi/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",First India News (360p) [Not 24/7]
 https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Gangaur TV (1080p)
@@ -276,8 +274,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/in
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Puthiya Thalaimurai (576p)
 https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Raftaar Media (240p)
-https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Real News Kerala (1080p) [Not 24/7]
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Reporter TV (576p)
@@ -454,6 +450,8 @@ https://cdn-2.pishow.tv/live/1464/master.m3u8
 https://cdn-4.pishow.tv/live/1462/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Dharm Sandesh
 https://cdn-2.pishow.tv/live/1455/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Aastha
+https://cdn-1.pishow.tv/live/1454/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Nambikkai TV
 https://cdn-3.pishow.tv/live/1389/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Madha TV
