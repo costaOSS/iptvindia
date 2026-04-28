@@ -120,10 +120,6 @@ https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
 https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",B4U Movies India (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Balle Balle (720p)
-https://mcncdndigital.com/balleballetv/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Bansal News (720p)
-https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bhojpuri Cinema (720p)
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Channel Divya (1080p)
@@ -278,8 +274,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/in
 https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Raftaar Media (240p)
 https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",RDX Goa (720p) [Geo-blocked]
-https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Real News Kerala (1080p) [Not 24/7]
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Reporter TV (576p)
@@ -422,6 +416,8 @@ https://cdn-1.pishow.tv/live/1617/master.m3u8
 https://cdn-2.pishow.tv/live/1613/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sairam TV
 https://cdn-3.pishow.tv/live/1611/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",SVBC 4
+https://cdn-2.pishow.tv/live/1607/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",PTC Punjabi
 https://cdn-2.pishow.tv/live/1604/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Odisha TV
