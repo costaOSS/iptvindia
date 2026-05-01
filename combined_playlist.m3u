@@ -118,8 +118,6 @@ https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u
 https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",B4U Movies (1080p) [Geo-blocked]
 https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",B4U Movies India (1080p)
-https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Balle Balle (720p)
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bhojpuri Cinema (720p)
@@ -184,6 +182,8 @@ https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/
 https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",India TV Aap Ki Adalat (1080p) [Geo-blocked]
 https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Indywood TV (720p)
+https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",INH 24x7 (360p)
 https://7epd6o8edk9b-hls-live.wmncdn.net/inh24/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Isai Aruvi (396p)
@@ -348,6 +348,8 @@ https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",TV9 Bharatvarsh (720p)
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",TV9 Gujarati (720p)
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",TV9 Kannada (720p) [Not 24/7]
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9kanmo6oiq/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",TV9 Marathi (720p)
@@ -528,8 +530,6 @@ https://cdn-3.pishow.tv/live/28/master.m3u8
 https://cdn-3.pishow.tv/live/27/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Tamil
 https://cdn-2.pishow.tv/live/26/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",DD Punjabi
-https://cdn-4.pishow.tv/live/24/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Kashir
 https://cdn-6.pishow.tv/live/16/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD News
@@ -542,6 +542,8 @@ https://cdn-2.pishow.tv/live/269/master.m3u8
 https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",TV13 Gujarati (720p)
 https://live.wrencdn.in/wrencdn/hls/tv13_web/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",BT TV (720p)
+https://feeds.intoday.in/bttv/itgd.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Comercio TV (1080p)
 https://amg00082-amg00082c1-distrotv-us-7248.playouts.now.amagi.tv/playlist/amg00082-tarima-comercio-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Cowboy Channel (1080p)
