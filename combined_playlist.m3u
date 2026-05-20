@@ -30,6 +30,8 @@ https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",9XM (1080p)
 https://9xjio.wiseplayout.com/9XM/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",9XM (576p)
+https://b.jsrdn.com/strm/channels/9xm/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",24 News (576p)
 https://segment.yuppcdn.net/110322/channel24/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",&TV International (1080p)
@@ -110,8 +112,6 @@ https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",B4U Kadak (1080p) [Geo-blocked]
 https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",B4U Kadak (1080p) [Not 24/7]
-https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",B4U Movies (1080p) [Geo-blocked]
 https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Balle Balle (720p)
@@ -520,6 +520,8 @@ https://cdn-4.pishow.tv/live/37/master.m3u8
 https://cdn-4.pishow.tv/live/32/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Sahyadri
 https://cdn-3.pishow.tv/live/30/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",DD Chandana
+https://cdn-3.pishow.tv/live/28/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Malayalam
 https://cdn-3.pishow.tv/live/27/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Tamil
