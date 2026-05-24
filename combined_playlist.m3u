@@ -30,6 +30,8 @@ https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",9XM (1080p)
 https://9xjio.wiseplayout.com/9XM/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",9XM (576p)
+https://b.jsrdn.com/strm/channels/9xm/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",24 News (576p)
 https://segment.yuppcdn.net/110322/channel24/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",&TV International (1080p)
@@ -514,8 +516,6 @@ https://cdn-6.pishow.tv/live/221/master.m3u8
 https://cdn-2.pishow.tv/live/39/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Bangla
 https://cdn-4.pishow.tv/live/37/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",DD Arun Prabha
-https://cdn-4.pishow.tv/live/32/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Sahyadri
 https://cdn-3.pishow.tv/live/30/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Chandana
@@ -542,6 +542,42 @@ https://feeds.intoday.in/bttv/itgd.m3u8
 https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",MediBizTV (720p)
 https://43wrzjnpqoxe-hls-live.wmncdn.net/marinebiztvlive/marinebiztvlive/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",India Today (720p)
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",DD India (720p)
+https://d2gvyg6lvauoko.cloudfront.net/230226/ddindia/chunks.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",NDTV 24x7 (720p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",News9Live (720p)
+https://vg-tv9yupp.vgcdn.net/vglive-sk-526536/v1/019e01ace8511ea540a871e333268/019e01ad3da31ea55784752988551/main.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Hornbill TV (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",NDTV Good Times (396p)
+https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Republic Bharat (1080p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicBharat.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Times Now Navbharat (1080p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TimesNowNavbharat.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Zee News (720p)
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeenews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8744f9fb-d696-4204-9795-5215ad930c39/main.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",NDTV India (720p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTVIndia.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Hindi Khabar (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/hindikhabar/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Sudarshan News (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/sudarshan/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",News 11 (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/news11bharat/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",INH 24x7 (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Total TV Haryana (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/totaltv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",News 1 India (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/news1india/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Khabrain Abhi Tak (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/khabreinabhitak/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Bharat Samachar (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/bharatsamachar/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Comercio TV (1080p)
 https://amg00082-amg00082c1-distrotv-us-7248.playouts.now.amagi.tv/playlist/amg00082-tarima-comercio-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Cowboy Channel (1080p)
