@@ -26,6 +26,8 @@ https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://gd.mdsharifulislamnayon.workers.dev/1:/TV%20LOGO/colors%20infinity.jpeg" group-title="Entertainment",Colors Infinity SD
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",9X Jalwa (1080p)
+https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",9XM (1080p)
 https://9xjio.wiseplayout.com/9XM/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",24 News (396p)
@@ -258,8 +260,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/in
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Puthiya Thalaimurai (576p)
 https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Raftaar Media (240p)
-https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Real News Kerala (1080p) [Not 24/7]
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Reporter TV (576p)
@@ -514,12 +514,8 @@ https://cdn-4.pishow.tv/live/32/master.m3u8
 https://cdn-3.pishow.tv/live/30/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Chandana
 https://cdn-3.pishow.tv/live/28/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",DD Malayalam
-https://cdn-3.pishow.tv/live/27/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Tamil
 https://cdn-2.pishow.tv/live/26/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",DD Punjabi
-https://cdn-4.pishow.tv/live/24/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Kashir
 https://cdn-6.pishow.tv/live/16/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD News
