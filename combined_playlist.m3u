@@ -258,6 +258,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/in
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Puthiya Thalaimurai (576p)
 https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Raftaar Media (240p)
+https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Real News Kerala (1080p) [Not 24/7]
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Reporter TV (576p)
@@ -314,8 +316,6 @@ https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-logo="" group-title="",Subhavaartha TV (720p)
 https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Tamilan TV (1080p)
-https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Telugu One (1080p)
 https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Times Now Navbharat (1080p) [Geo-blocked]
@@ -444,8 +444,6 @@ https://cdn-3.pishow.tv/live/1389/master.m3u8
 https://cdn-3.pishow.tv/live/1265/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Puthiya Thalaimurai
 https://cdn-3.pishow.tv/live/1261/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Polimer News
-https://cdn-3.pishow.tv/live/1245/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Kaumudy TV
 https://cdn-3.pishow.tv/live/1237/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sai TV
