@@ -314,8 +314,12 @@ https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3
 https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Songdew TV (396p)
 https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-logo="" group-title="",Steelbird Music (720p) [Not 24/7]
+https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Subhavaartha TV (720p)
 https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Tamilan TV (1080p)
+https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Telugu One (1080p)
 https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Times Now Navbharat (1080p) [Geo-blocked]
@@ -444,6 +448,8 @@ https://cdn-3.pishow.tv/live/1389/master.m3u8
 https://cdn-3.pishow.tv/live/1265/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Puthiya Thalaimurai
 https://cdn-3.pishow.tv/live/1261/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Polimer News
+https://cdn-3.pishow.tv/live/1245/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Kaumudy TV
 https://cdn-3.pishow.tv/live/1237/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sai TV
