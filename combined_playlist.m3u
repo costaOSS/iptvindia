@@ -30,8 +30,6 @@ https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",9XM (1080p)
 https://9xjio.wiseplayout.com/9XM/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",9XM (576p)
-https://b.jsrdn.com/strm/channels/9xm/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",24 News (396p)
 https://segment.yuppcdn.net/110322/channel24/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",&TV International (1080p)
@@ -724,8 +722,6 @@ https://cdn-6.pishow.tv/live/13/master.m3u8
 https://cdn-4.pishow.tv/live/8/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Uttar Pradesh (720p)
 https://cdn-1.pishow.tv/live/36/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",DD Uttarakhand (720p)
-https://cdn-1.pishow.tv/live/17/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Yadagiri (576p)
 https://cdn-1.pishow.tv/live/21/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Fakt Marathi (720p) [Not 24/7]
