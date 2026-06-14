@@ -124,8 +124,6 @@ https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u
 https://cdn-2.pishow.tv/live/419/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",B4U Music (576p)
 https://cdn-2.pishow.tv/live/415/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Balle Balle (720p)
-https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Balle Balle
 https://cdn-4.pishow.tv/live/987/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bharat Express
@@ -166,6 +164,8 @@ https://live-dangal.akamaized.net/liveabr/playlist.m3u8
 https://cdn-4.pishow.tv/live/32/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Bangla
 https://cdn-4.pishow.tv/live/37/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",DD Chandana
+https://cdn-3.pishow.tv/live/28/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD India (720p)
 https://d2gvyg6lvauoko.cloudfront.net/230226/ddindia/chunks.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Jharkhand
@@ -222,6 +222,8 @@ https://d1msejlow1t3l4.cloudfront.net/fta/hindikhabar/playlist.m3u8
 https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",History TV18 HD Hindi (1080p) [Geo-blocked]
 https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Hornbill TV (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",India Today (720p) [Geo-blocked]
 https://amg00644-amg00644c1-ondemandkorea-amesia-10266.playouts.now.amagi.tv/playlist/amg00644-tvtodaynetworkltdfast-indiatoday-ondemandkoreaamesia/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",India Today (720p) [Not 24/7]
@@ -506,6 +508,8 @@ https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/playlist/amg014
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TimesNowNavbharat.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Total Bhakti (1080p)
 https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Total TV Haryana (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/totaltv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Travelxp HD (1080p) [Geo-blocked]
 https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",TV5 News
