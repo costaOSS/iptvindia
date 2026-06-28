@@ -380,6 +380,8 @@ https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
 https://cdn-3.pishow.tv/live/1261/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Raftaar Media (240p)
 https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Real News Kerala (1080p) [Not 24/7]
+https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Rengoni (396p)
 https://d1msejlow1t3l4.cloudfront.net/fta/rengonitv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Reporter TV (576p)
