@@ -46,6 +46,8 @@ https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8
 https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Amrita TV (720p)
 https://ddash74r36xqp.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Angel TV (720p)
+https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Angel TV Africa (720p)
 https://janya-digimix.akamaized.net/vglive-sk-904559/africa/ngrp:angelafrica_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Angel TV America (720p)
@@ -150,8 +152,6 @@ https://cdn-6.pishow.tv/live/16/master.m3u8
 https://cdn-3.pishow.tv/live/27/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD News
 https://cdn-2.pishow.tv/live/12/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",DD Punjabi
-https://cdn-4.pishow.tv/live/24/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Sahyadri
 https://cdn-3.pishow.tv/live/30/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Tamil
@@ -432,6 +432,8 @@ https://cdn-2.pishow.tv/live/269/master.m3u8
 https://d2lk5u59tns74c.cloudfront.net/out/v1/fff8f20221d5456e8922e689d71dedc3/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sansad TV 2 (1080p)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Sansad TV 2
+https://cdn-2.pishow.tv/live/39/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sanskar TV (1080p)
 https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sanskar UK (1080p)
