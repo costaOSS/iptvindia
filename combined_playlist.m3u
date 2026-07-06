@@ -152,6 +152,8 @@ https://cdn-6.pishow.tv/live/16/master.m3u8
 https://cdn-3.pishow.tv/live/27/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD News
 https://cdn-2.pishow.tv/live/12/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",DD Punjabi
+https://cdn-4.pishow.tv/live/24/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Sahyadri
 https://cdn-3.pishow.tv/live/30/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Tamil
@@ -284,6 +286,8 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",NDTV Madhya Pradesh Chhattisgarh (1080p)
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",NDTV Profit (1080p)
+https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",NDTV Rajasthan (1080p)
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Nepal 1 (396p)
@@ -704,6 +708,8 @@ https://cdn-6.pishow.tv/live/9/master.m3u8
 https://cdn-1.pishow.tv/live/31/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD National SD (576p)
 https://cdn-1.pishow.tv/live/11/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",DD Rajasthan (720p)
+https://cdn-1.pishow.tv/live/34/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Saptagiri
 https://cdn-1.pishow.tv/live/22/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Sports (720p)
