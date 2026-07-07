@@ -158,8 +158,6 @@ https://cdn-4.pishow.tv/live/24/master.m3u8
 https://cdn-3.pishow.tv/live/30/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Tamil
 https://cdn-2.pishow.tv/live/26/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Desi Channel (720p)
-https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Dharm Sandesh
 https://cdn-2.pishow.tv/live/1455/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Enterr 10 Bangla (720p) [Not 24/7]
