@@ -158,6 +158,8 @@ https://cdn-4.pishow.tv/live/24/master.m3u8
 https://cdn-3.pishow.tv/live/30/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Tamil
 https://cdn-2.pishow.tv/live/26/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Desi Channel (720p)
+https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Dharm Sandesh
 https://cdn-2.pishow.tv/live/1455/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Enterr 10 Bangla (720p) [Not 24/7]
@@ -222,8 +224,6 @@ https://7epd6o8edk9b-hls-live.wmncdn.net/inh24/live.stream/playlist.m3u8
 https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Ishwar Bhakti TV (720p)
 https://6n3yow8pl9ok-hls-live.5centscdn.com/ishwartvlive/tv.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Ishwar Bhakti TV
-https://cdn-2.pishow.tv/live/1464/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Jaihind TV (396p)
 https://yuppnimrestreammum.akamaized.net/260723/smil:jaihind1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-logo="" group-title="",Janam TV
@@ -356,8 +356,6 @@ https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8
 https://cdn-3.pishow.tv/live/1245/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Pravasi Channel (1080p)
 https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Prudent Media (1080p)
-https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",PTC Music (720p)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",PTC Music
