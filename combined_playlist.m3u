@@ -120,6 +120,8 @@ https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8
 https://chardikalatimestv.gigabitcdn.net/in-chardikala/chardikala-gurbani-tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Chardikla Time TV (1080p)
 https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Chardikla Time TV
+https://cdn-4.pishow.tv/live/1627/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Chardikla Time TV North America (1080p)
 https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",CNBC Awaaz (1080p)
@@ -162,6 +164,8 @@ https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
 https://cdn-2.pishow.tv/live/1455/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Enterr 10 Bangla (720p) [Not 24/7]
 https://live-bangla.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Enterr 10 Bangla
+https://cdn-4.pishow.tv/live/241/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",ETV Comedy (1080p)
 https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",ETV Josh (1080p)
@@ -246,6 +250,8 @@ https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
 https://cdn.ottlive.co.in/kolkatatv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Madha TV
 https://cdn-3.pishow.tv/live/1265/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Maha Punjabi
+https://cdn-4.pishow.tv/live/1521/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Mahaa News
 https://cdn-1.pishow.tv/live/401/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Makkal TV (576i)
@@ -462,8 +468,6 @@ https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-logo="" group-title="",Steelbird Music (720p) [Not 24/7]
 https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Subhavaartha TV (720p)
-https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Subhavaartha TV
 https://cdn-1.pishow.tv/live/278/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sudarshan News (396p)
@@ -480,6 +484,8 @@ https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TimesNowNavbharat.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Total Bhakti (1080p)
 https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Total TV Haryana (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/totaltv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Travelxp HD (1080p) [Geo-blocked]
 https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",TV5 News
@@ -674,6 +680,8 @@ https://cdn-2.pishow.tv/live/1051/master.m3u8
 https://cdn-1.pishow.tv/live/397/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",BIG TV (720p)
 https://cdn-1.pishow.tv/live/1059/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",BRK News (576p)
+https://cdn-1.pishow.tv/live/1037/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Channel WIN (720p)
 https://cdn-4.pishow.tv/live/229/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Chithiram (576p)
@@ -784,6 +792,8 @@ https://cdn-1.pishow.tv/live/965/master.m3u8
 https://cdn-4.pishow.tv/live/1499/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Oscar Movies Bhojpuri (720p)
 https://cdn-4.pishow.tv/live/233/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Peppers TV (751p)
+https://cdn-2.pishow.tv/live/1383/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Polimer TV (720p)
 https://cdn-2.pishow.tv/live/1241/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",PTC Chakde (720p)
@@ -824,6 +834,8 @@ https://cdn-1.pishow.tv/live/385/master.m3u8
 https://cdn-4.pishow.tv/live/239/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Thanthi TV (576p)
 https://cdn-3.pishow.tv/live/1612/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Total TV Haryana (576p)
+https://cdn-2.pishow.tv/live/1522/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",TV5 Kannada (576p)
 https://cdn-3.pishow.tv/live/1526/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",V6 News
