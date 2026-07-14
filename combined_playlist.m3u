@@ -102,8 +102,6 @@ https://cdn-2.pishow.tv/live/415/master.m3u8
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Balle Balle
 https://cdn-4.pishow.tv/live/987/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Bansal News (720p)
-https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bharat Express
 https://cdn-2.pishow.tv/live/1139/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bharat Samachar (396p)
@@ -392,8 +390,6 @@ https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc4
 https://cdn-7.pishow.tv/live/10016/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Rang (576p)
 https://cdn-7.pishow.tv/live/10017/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",RDX Goa (720p) [Geo-blocked]
-https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Real News Kerala (1080p) [Not 24/7]
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Rengoni (396p)
@@ -588,8 +584,6 @@ https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg1
 https://amg02278-amg02278c1-distrotv-us-7534.playouts.now.amagi.tv/playlist/amg02278-flosports-floracing24x7-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",In Touch+ (1080p)
 https://amg01540-amg01540c2-distrotv-us-8133.playouts.now.amagi.tv/playlist/amg01540-apexmediafast-intouchplus-distrotvus/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",The Reuters 60 (1080p)
-https://amg00453-amg00453c1-distrotv-us-7691.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Unleashed by DOGTV (1080p)
 https://amg26269-amg26269c2-distrotv-us-8939.playouts.now.amagi.tv/playlist/amg26269-dogtv-unleashedbydogtv-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Arun Prabha (360p)
