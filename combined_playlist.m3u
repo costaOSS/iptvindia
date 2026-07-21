@@ -220,6 +220,8 @@ https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/ind
 https://cdn-2.pishow.tv/live/1043/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",India TV Aap Ki Adalat (1080p) [Geo-blocked]
 https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Indywood TV (720p)
+https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",INH 24x7 (396p)
 https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",INH 24x7 (360p)
@@ -298,8 +300,6 @@ https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",NDTV Rajasthan (1080p)
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Nepal 1 (396p)
-https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Nepal 1
 https://cdn-6.pishow.tv/live/1490/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",News 1 India (396p)
@@ -562,6 +562,8 @@ https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOi
 https://duw35ict5q7th.cloudfront.net/index_3.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Zoom (576p)
 https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Punjabi Shorts (1080p)
+https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/27c3fd7a-b01f-4b00-ac03-557ac77acd47/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Comercio TV (1080p)
 https://amg00082-amg00082c1-distrotv-us-7248.playouts.now.amagi.tv/playlist/amg00082-tarima-comercio-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Cowboy Channel (1080p)
@@ -758,6 +760,8 @@ https://cdn-3.pishow.tv/live/1481/master.m3u8
 https://cdn-3.pishow.tv/live/1253/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Music India (720p) [Not 24/7]
 https://cdn-2.pishow.tv/live/226/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Nagaland TV (576p)
+https://cdn-6.pishow.tv/live/10014/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",News 1st (576p)
 https://cdn-3.pishow.tv/live/268/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",News Daily 24 (576p)
