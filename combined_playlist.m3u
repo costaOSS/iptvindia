@@ -1,5 +1,7 @@
 #EXTM3U
 # India-only IPTV
+#EXTINF:-1 tvg-logo="" group-title="",9X Jalwa (1080p)
+https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",9X Jhakaas (1080p)
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",9X Tashan (1080p)
@@ -106,8 +108,6 @@ https://cdn-2.pishow.tv/live/415/master.m3u8
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Balle Balle
 https://cdn-4.pishow.tv/live/987/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Bansal News (720p)
-https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bharat Express
 https://cdn-2.pishow.tv/live/1139/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bharat Samachar (396p)
@@ -158,8 +158,6 @@ https://cdn-6.pishow.tv/live/16/master.m3u8
 https://cdn-3.pishow.tv/live/27/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD News
 https://cdn-2.pishow.tv/live/12/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",DD Punjabi
-https://cdn-4.pishow.tv/live/24/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Sahyadri
 https://cdn-3.pishow.tv/live/30/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Tamil
@@ -300,6 +298,8 @@ https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",NDTV Rajasthan (1080p)
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Nepal 1 (396p)
+https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Nepal 1
 https://cdn-6.pishow.tv/live/1490/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",News 1 India (396p)
@@ -388,14 +388,10 @@ https://cdn-6.pishow.tv/live/1503/master.m3u8
 https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Puthiya Thalaimurai
 https://cdn-3.pishow.tv/live/1261/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Raftaar Media (240p)
-https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Ramdhenu (576p)
 https://cdn-7.pishow.tv/live/10016/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Rang (576p)
 https://cdn-7.pishow.tv/live/10017/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",RDX Goa (720p) [Geo-blocked]
-https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Real News Kerala (1080p) [Not 24/7]
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Rengoni (396p)
@@ -466,8 +462,6 @@ https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-logo="" group-title="",Spondon (576p)
 https://cdn-7.pishow.tv/live/10019/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Steelbird Music (720p) [Not 24/7]
-https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Subhavaartha TV (720p)
 https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Subhavaartha TV
@@ -476,8 +470,6 @@ https://cdn-1.pishow.tv/live/278/master.m3u8
 https://d1msejlow1t3l4.cloudfront.net/fta/sudarshan/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sudarshan News
 https://cdn-2.pishow.tv/live/1516/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",SVBC 4
-https://cdn-2.pishow.tv/live/1607/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Tamilan TV (1080p)
 https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Telugu One (1080p)
