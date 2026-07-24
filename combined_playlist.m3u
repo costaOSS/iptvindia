@@ -106,6 +106,8 @@ https://cdn-2.pishow.tv/live/415/master.m3u8
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Balle Balle
 https://cdn-4.pishow.tv/live/987/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Bansal News (720p)
+https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bharat Express
 https://cdn-2.pishow.tv/live/1139/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Bharat Samachar (396p)
@@ -394,6 +396,8 @@ https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc4
 https://cdn-7.pishow.tv/live/10016/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Rang (576p)
 https://cdn-7.pishow.tv/live/10017/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",RDX Goa (720p) [Geo-blocked]
+https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Real News Kerala (1080p) [Not 24/7]
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Rengoni (396p)
