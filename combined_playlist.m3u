@@ -706,6 +706,12 @@ https://cdn-1.pishow.tv/live/36/master.m3u8
 https://cdn-1.pishow.tv/live/17/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Yadagiri (576p)
 https://cdn-1.pishow.tv/live/21/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Dhamaal (576p)
+https://cdn-1.pishow.tv/live/1291/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Dhamaka Movies B4U (576p)
+https://cdn-1.pishow.tv/live/235/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Dhoom Music (720p)
+https://cdn-1.pishow.tv/live/1456/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Fakt Marathi (720p) [Not 24/7]
 https://cdn-6.pishow.tv/live/10002/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Goldmines (576p)
@@ -758,8 +764,6 @@ https://cdn-3.pishow.tv/live/1481/master.m3u8
 https://cdn-3.pishow.tv/live/1253/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Music India (720p) [Not 24/7]
 https://cdn-2.pishow.tv/live/226/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Nagaland TV (576p)
-https://cdn-6.pishow.tv/live/10014/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",News 1st (576p)
 https://cdn-3.pishow.tv/live/268/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",News Daily 24 (576p)
