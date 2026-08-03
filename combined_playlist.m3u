@@ -262,6 +262,8 @@ https://yuppparoriglin.akamaized.net/181224/smil:mathimugam.smil/playlist.m3u8?h
 https://cdn-4.pishow.tv/live/1521/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Mahaa News
 https://cdn-1.pishow.tv/live/401/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Makkal TV (576i)
+https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Malai Murasu TV (1080p) [Geo-blocked]
 https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Mango Mobile TV (1080p)
@@ -436,6 +438,8 @@ https://cdn-6.pishow.tv/live/1513/master.m3u8
 https://cdn-3.pishow.tv/live/1235/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sairam TV
 https://cdn-3.pishow.tv/live/1611/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Sakshi TV
+https://cdn-1.pishow.tv/live/409/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Salaam TV (720p)
 https://d2o3r1shda7xvv.cloudfront.net/index_5.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Samachar Plus
@@ -718,6 +722,8 @@ https://cdn-1.pishow.tv/live/36/master.m3u8
 https://cdn-1.pishow.tv/live/17/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",DD Yadagiri (576p)
 https://cdn-1.pishow.tv/live/21/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Dhoom Music (720p)
+https://cdn-1.pishow.tv/live/1456/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Fakt Marathi (720p) [Not 24/7]
 https://cdn-6.pishow.tv/live/10002/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Goldmines (576p)
@@ -802,6 +808,8 @@ https://cdn-3.pishow.tv/live/439/master.m3u8
 https://cdn-4.pishow.tv/live/1231/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Raj Musix Telugu (720p)
 https://cdn-1.pishow.tv/live/1213/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="",Rupasi Bangla (720p)
+https://cdn-4.pishow.tv/live/1039/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Saam TV
 https://cdn-3.pishow.tv/live/437/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Sangeet Bangla (720p)
