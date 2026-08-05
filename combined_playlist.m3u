@@ -388,8 +388,6 @@ https://cdn-6.pishow.tv/live/1503/master.m3u8
 https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Puthiya Thalaimurai
 https://cdn-3.pishow.tv/live/1261/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="",Raftaar Media (240p)
-https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Ramdhenu (576p)
 https://cdn-7.pishow.tv/live/10016/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="",Rang (576p)
