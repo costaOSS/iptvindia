@@ -37,17 +37,12 @@ EXCLUDED_GROUPS = [
 ]
 
 ADDITIONAL_SOURCES = [
-    'https://raw.githubusercontent.com/FunctionError/PiratesTv/main/combined_playlist.m3u',
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u',
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_distro.m3u',
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_doordarshan.m3u',
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_pishow.m3u',
-    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_tango.m3u',
-]
-
-WORKING_DOMAINS = [
-    'amagi', 'samsungin', 'akamaized', 'cloudfront', 'cdn', 'wiseplayout',
-    'jsrdn', 'yuppcdn', 'yupp', 'intoday', 'akamaized.net', 'cloudfront.net'
+    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_samsung.m3u',
+    'https://raw.githubusercontent.com/deep2772/Hindi_Punjabi-iptv-playlist/main/Hindi_Punjabi_Merged.m3u',
 ]
 
 def is_indian_channel(channel_name, group, url, tvg_id=''):
@@ -83,16 +78,19 @@ def is_indian_channel(channel_name, group, url, tvg_id=''):
     return False
 
 def is_likely_working(url):
-    url_lower = url.lower()
-    for domain in WORKING_DOMAINS:
-        if domain in url_lower:
-            return True
-    return False
+    return url.lower().startswith(('http://', 'https://'))
 
 def check_stream(channel):
     url = channel['url']
+    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36'}
     try:
-        response = requests.head(url, timeout=8, allow_redirects=True)
+        response = requests.head(url, timeout=8, allow_redirects=True, headers=headers)
+        if response.status_code < 400:
+            return channel
+    except:
+        pass
+    try:
+        response = requests.get(url, timeout=8, allow_redirects=True, headers=headers, stream=True)
         if response.status_code < 400:
             return channel
     except:

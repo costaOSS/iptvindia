@@ -16,15 +16,16 @@ https://costaoss.github.io/iptvindia/combined_playlist.m3u
 
 ## Features
 
-- 417 Indian channels
+- 602 Indian channels
 - Filters only Indian channels (removes Bangladeshi, Pakistani, Arabic, etc.)
-- Combines streams from PiratesTV + iptv-org/iptv
+- Combines streams from iptv-org/iptv + Hindi/Punjabi community playlists
 - Auto-updates on the 1st of every month at 02:00 UTC via GitHub Actions
 
 ## Sources
 
-- Primary: https://github.com/FunctionError/PiratesTv
-- Additional: https://github.com/iptv-org/iptv (India streams)
+- iptv-org/iptv (India streams): https://github.com/iptv-org/iptv
+- Hindi & Punjabi playlist: https://github.com/deep2772/Hindi_Punjabi-iptv-playlist
+- Streams are HEAD/GET validated before inclusion
 
 ## Automation
 
