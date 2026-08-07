@@ -12,7 +12,9 @@ INDIAN_KEYWORDS = [
     'DD National', 'DD News', 'DD India', 'DD Sports', 'Doordarshan',
     'NDTV', 'Aaj Tak', 'Republic', 'Times Now', 'India Today', 'ABP', 'News18', 'TV9',
     'ETV', 'ETV HD', 'ETV Plus', 'ETV Cinema', 'ETV Life', 'ETV Abhiruchi',
-    '9XM', '9X', 'B4U', 'MTV', 'MTV India',
+    '9XM',     '9X', 'B4U', 'MTV', 'MTV India',
+    'Wion', 'Mirror Now', 'Bloomberg Quint', 'Bloomberg', 'Zee Cafe', 'NDTV Prime',
+    'Sony Movies', 'Living Foodz', 'News 18', 'CNN News 18', 'CNBC Awaaz', 'Times Now',
     'Sun TV', 'Sun News', 'Jaya', 'Asianet', 'Asianet Plus', 'Surya', 'Mazhavil', 'Sun NXT',
     'Gemini TV', 'Polimer', 'Captain', 'Kumari', 'Vijay', 'Kalaignar',
     'Goldmines', 'Manoranjan', 'Zee Classic', 'And Pictures', 'Andpictures',
@@ -25,15 +27,9 @@ INDIAN_KEYWORDS = [
 
 EXCLUDED_GROUPS = [
     'Bangladeshi', 'Bangladesh', 'Pakistan', 'Pakistani',
-    'UK', 'USA', 'United Kingdom', 'United States', 'Canada', 'Australia',
     'Arabic', 'Islamic', 'Islamic Channel', 'Muslim', 'ISLAMIC',
-    'Football', 'Documentary', 'Infotainment',
-    'Kids', 'Cartoon', 'Anime',
-    'Music', 'Radio',
-    'Cricket', 'PSL', 'Live Sports',
-    'Bangladeshi 🇧🇩', 'Cricket 🏏', 'Football',
-    'English Movies', 'English News', 'NEWS INTERNASIONAL',
-    'Promo', 'Movies', 'Relagion'
+    'Bangladeshi 🇧🇩', 'NEWS INTERNASIONAL',
+    'Relagion'
 ]
 
 ADDITIONAL_SOURCES = [
@@ -43,6 +39,16 @@ ADDITIONAL_SOURCES = [
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_pishow.m3u',
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in_samsung.m3u',
     'https://raw.githubusercontent.com/deep2772/Hindi_Punjabi-iptv-playlist/main/Hindi_Punjabi_Merged.m3u',
+]
+
+KTPM_INDIA_FILES = [
+    'Assamese', 'Bangla', 'Bhojpuri', 'English', 'Gujarat',
+    'Hindi', 'Kannada', 'Malayalam', 'Marathi', 'Oriya',
+    'Rajasthan', 'Tamil', 'Telugu',
+]
+
+ADDITIONAL_SOURCES += [
+    f'https://raw.githubusercontent.com/ktpm489/IPTV-2/master/India/{f}.m3u8' for f in KTPM_INDIA_FILES
 ]
 
 def is_indian_channel(channel_name, group, url, tvg_id=''):
@@ -69,7 +75,7 @@ def is_indian_channel(channel_name, group, url, tvg_id=''):
     if any(kw.lower() in channel_lower for kw in INDIAN_KEYWORDS):
         return True
     
-    if any(kw.lower() in group_lower for kw in ['hindi', 'punjabi', 'tamil', 'telugu', 'malayalam', 'kannada', 'marathi', 'gujarati', 'bengali', 'indian', 'regional', 'indian bangla news', 'kolkata']):
+    if any(kw.lower() in group_lower for kw in ['hindi', 'punjabi', 'tamil', 'telugu', 'malayalam', 'kannada', 'marathi', 'gujarati', 'gujarat', 'rajasthan', 'oriya', 'odia', 'bhojpuri', 'bangla', 'bengali', 'assamese', 'indian', 'regional', 'indian bangla news', 'kolkata']):
         return True
     
     if 'samsungin' in url_lower or 'amagi' in url_lower:
