@@ -197,6 +197,13 @@ def write_to_file(playlist, output_file, include_credits=False):
             url = item['url']
             f.write(f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{name}\n{url}\n")
 
+def update_readme_count(count, readme_file='readme.md'):
+    with open(readme_file, 'r') as f:
+        content = f.read()
+    content = re.sub(r'- \d+\+? Indian channels', f'- {count} Indian channels', content)
+    with open(readme_file, 'w') as f:
+        f.write(content)
+
 if __name__ == "__main__":
     default_sources = ADDITIONAL_SOURCES
     
@@ -208,6 +215,8 @@ if __name__ == "__main__":
     working_playlist = validate_streams(combined_playlist)
 
     write_to_file(working_playlist, output_file, include_credits)
+
+    update_readme_count(len(working_playlist))
 
     print(f"\n=== Final Result ===")
     print(f"Working India-only playlist written to {output_file}")
